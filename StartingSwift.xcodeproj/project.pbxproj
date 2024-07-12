@@ -13,6 +13,7 @@
 		8E211A282C40043A0015571C /* Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E211A272C40043A0015571C /* Task3.swift */; };
 		8E211A2A2C4006B20015571C /* Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E211A292C4006B20015571C /* Task4.swift */; };
 		8ECA07842C4126980059890C /* ProfitBankDeposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA07832C4126980059890C /* ProfitBankDeposit.swift */; };
+		8ECA07862C41535F0059890C /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA07852C41535F0059890C /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		8E211A272C40043A0015571C /* Task3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3.swift; sourceTree = "<group>"; };
 		8E211A292C4006B20015571C /* Task4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4.swift; sourceTree = "<group>"; };
 		8ECA07832C4126980059890C /* ProfitBankDeposit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitBankDeposit.swift; sourceTree = "<group>"; };
+		8ECA07852C41535F0059890C /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				8ECA07832C4126980059890C /* ProfitBankDeposit.swift */,
+				8ECA07852C41535F0059890C /* Pizza.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ECA07862C41535F0059890C /* Pizza.swift in Sources */,
 				8ECA07842C4126980059890C /* ProfitBankDeposit.swift in Sources */,
 				8E211A282C40043A0015571C /* Task3.swift in Sources */,
 				8E211A262C4001510015571C /* Task2.swift in Sources */,

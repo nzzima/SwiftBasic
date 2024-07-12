@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+enum Pizza {
+    case thin
+    case classic
+    case thick
+}
