@@ -15,8 +15,8 @@ import Foundation
 //printMoreLess(number1: 7, number2: 20)
 //
 //print("Result of task3: ")
-//plusK_IfElse()
+//plusKIfElse()
 //
 //print("Result of task4: ")
-//plusK_break_IfElse()
+//plusKBreakIfElse()
 //--------------Seminar1 (StartingSwift folder)--------------

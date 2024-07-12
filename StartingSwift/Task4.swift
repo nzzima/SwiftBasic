@@ -7,7 +7,7 @@
 
 import Foundation
 
-func plusK_break_IfElse() -> Void {
+func plusKBreakIfElse() -> Void {
     var k = 9
     for number in 10...50 where number % 2 != 0 {
         let temp = number + k
