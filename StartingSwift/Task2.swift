@@ -20,6 +20,5 @@ import Foundation
 
 //New
 func printMoreLess(number1: Int, number2: Int) -> Void {
-    let result = number1 * number2
-    result > 10 ? print(number1) : print(number2)
+    number1 * number2 > 10 ? print(number1) : print(number2)
 }
