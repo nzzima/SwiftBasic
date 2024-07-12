@@ -7,11 +7,10 @@
 
 import Foundation
 
-func profitOnBankDeposit(sum: Int, percent: Int, years: Int) -> Int {
+func profitOnBankDeposit(sum: Double, percent: Double, years: Int) -> Double {
     var newSum = sum
-    for _ in 0...years {
-        newSum += newSum * (percent / 100)
+    for _ in 1...years {
+        newSum += newSum * percent / 100
     }
-    let profit = newSum - sum
-    return profit
+    return newSum - sum
 }

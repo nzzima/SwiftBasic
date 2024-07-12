@@ -20,4 +20,6 @@ import Foundation
 //print("Result of task4: ")
 //plusKBreakIfElse()
 //--------------Seminar1 (StartingSwift folder)--------------
-
+//--------------Seminar2 (Functions folder)--------------
+let profit = profitOnBankDeposit(sum: 7000.0, percent: 18.0, years: 1)
+print("Total profit -> \(profit)")
