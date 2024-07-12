@@ -21,5 +21,5 @@ import Foundation
 //plusKBreakIfElse()
 //--------------Seminar1 (StartingSwift folder)--------------
 //--------------Seminar2 (Functions folder)--------------
-let profit = profitOnBankDeposit(sum: 7000.0, percent: 18.0, years: 1)
+let profit = profitOnBankDeposit(sum: 7000.0, percent: 18.0, years: 2)
 print("Total profit -> \(profit)")

@@ -12,5 +12,5 @@ func profitOnBankDeposit(sum: Double, percent: Double, years: Int) -> Double {
     for _ in 1...years {
         newSum += newSum * percent / 100
     }
-    return newSum - sum
+    return newSum
 }
