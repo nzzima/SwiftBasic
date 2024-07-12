@@ -49,6 +49,8 @@
 		8E211A102C3FFE650015571C = {
 			isa = PBXGroup;
 			children = (
+				8E211A1C2C3FFE650015571C /* main.swift */,
+				8ECA077E2C411CB00059890C /* Functions */,
 				8E211A1B2C3FFE650015571C /* StartingSwift */,
 				8E211A1A2C3FFE650015571C /* Products */,
 			);
@@ -65,13 +67,19 @@
 		8E211A1B2C3FFE650015571C /* StartingSwift */ = {
 			isa = PBXGroup;
 			children = (
-				8E211A1C2C3FFE650015571C /* main.swift */,
 				8E211A232C3FFF660015571C /* Task1.swift */,
 				8E211A252C4001510015571C /* Task2.swift */,
 				8E211A272C40043A0015571C /* Task3.swift */,
 				8E211A292C4006B20015571C /* Task4.swift */,
 			);
 			path = StartingSwift;
+			sourceTree = "<group>";
+		};
+		8ECA077E2C411CB00059890C /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
