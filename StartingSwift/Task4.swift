@@ -14,7 +14,7 @@ func plusK_break_IfElse() -> Void {
         //print("Number = \(number) + k = \(k) = \(temp)")
         if (temp % 2 == 0) {
             k += 1
-            //print("k + 1 success")
+            print("k + 1 success")
         }
         else {
             print("Next")
