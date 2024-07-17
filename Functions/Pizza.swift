@@ -13,14 +13,15 @@ enum Pizza: String{
     case Peperonni
 }
 
+// First
 func enumerationPizza() {
     print("Enter your favorite pizza number:\n1 - Margarita\n2- FourSeason\n3 - Peperonni")
     let chooseString = readLine() ?? ""
     let chooseInt = Int(chooseString)
     
-    let margarita = Pizza.Margarita
-    let fourSeason = Pizza.FourSeason
-    let peperonni = Pizza.Peperonni
+    let margarita: Pizza = .Margarita
+    let fourSeason: Pizza = .FourSeason
+    let peperonni: Pizza = .Peperonni
     
     if (chooseInt == 1) {
         print(margarita.rawValue)
@@ -34,6 +35,11 @@ func enumerationPizza() {
     else {
         print("Please write correct number of pizze!")
     }
+}
+
+//Second
+func getName(pizza: Pizza) -> String {
+    pizza.rawValue
 }
 
 
