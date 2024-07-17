@@ -32,4 +32,5 @@ import Foundation
 //----------------Seminar3 (Collections folder)--------------
 print("Result of buying tea: ")
 printTeaHumans()
+arrayManipulation()
 //----------------Seminar3 (Collections folder)--------------

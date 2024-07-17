@@ -15,6 +15,7 @@
 		8ECA07842C4126980059890C /* ProfitBankDeposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA07832C4126980059890C /* ProfitBankDeposit.swift */; };
 		8ECA07862C41535F0059890C /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA07852C41535F0059890C /* Pizza.swift */; };
 		8EEDBF042C47F97A0075360D /* HumanTea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDBF032C47F97A0075360D /* HumanTea.swift */; };
+		8EEDBF062C4804A40075360D /* ArrayManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDBF052C4804A40075360D /* ArrayManipulation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		8ECA07832C4126980059890C /* ProfitBankDeposit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitBankDeposit.swift; sourceTree = "<group>"; };
 		8ECA07852C41535F0059890C /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		8EEDBF032C47F97A0075360D /* HumanTea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanTea.swift; sourceTree = "<group>"; };
+		8EEDBF052C4804A40075360D /* ArrayManipulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayManipulation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				8EEDBF032C47F97A0075360D /* HumanTea.swift */,
+				8EEDBF052C4804A40075360D /* ArrayManipulation.swift */,
 			);
 			path = Collections;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ECA07862C41535F0059890C /* Pizza.swift in Sources */,
+				8EEDBF062C4804A40075360D /* ArrayManipulation.swift in Sources */,
 				8ECA07842C4126980059890C /* ProfitBankDeposit.swift in Sources */,
 				8E211A282C40043A0015571C /* Task3.swift in Sources */,
 				8E211A262C4001510015571C /* Task2.swift in Sources */,
