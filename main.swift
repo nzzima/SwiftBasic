@@ -20,11 +20,16 @@ import Foundation
 //print("Result of task4: ")
 //plusKBreakIfElse()
 //--------------Seminar1 (StartingSwift folder)--------------
-
-//--------------Seminar2 (Functions folder)--------------
+//-----------------------------------------------------------
+//----------------Seminar2 (Functions folder)----------------
 //let profit = profitOnBankDeposit(sum: 7000.0, percent: 18.0, years: 2)
 //print("Total profit -> \(profit)")
 //
 //print("Result of pizza: ")
 //enumerationPizza()
-//--------------Seminar2 (Functions folder)--------------
+//----------------Seminar2 (Functions folder)----------------
+//-----------------------------------------------------------
+//----------------Seminar3 (Collections folder)--------------
+print("Result of buying tea: ")
+printTeaHumans()
+//----------------Seminar3 (Collections folder)--------------
