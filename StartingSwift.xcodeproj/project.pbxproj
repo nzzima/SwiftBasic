@@ -13,6 +13,7 @@
 		8E211A282C40043A0015571C /* Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E211A272C40043A0015571C /* Task3.swift */; };
 		8E211A2A2C4006B20015571C /* Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E211A292C4006B20015571C /* Task4.swift */; };
 		8E6F2ED22C4933CB00C06930 /* CreateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F2ED12C4933CB00C06930 /* CreateArray.swift */; };
+		8E6F2ED52C4956D100C06930 /* PizzaCafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F2ED42C4956D100C06930 /* PizzaCafe.swift */; };
 		8ECA07842C4126980059890C /* ProfitBankDeposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA07832C4126980059890C /* ProfitBankDeposit.swift */; };
 		8ECA07862C41535F0059890C /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA07852C41535F0059890C /* Pizza.swift */; };
 		8EEDBF042C47F97A0075360D /* HumanTea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDBF032C47F97A0075360D /* HumanTea.swift */; };
@@ -39,6 +40,7 @@
 		8E211A272C40043A0015571C /* Task3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3.swift; sourceTree = "<group>"; };
 		8E211A292C4006B20015571C /* Task4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4.swift; sourceTree = "<group>"; };
 		8E6F2ED12C4933CB00C06930 /* CreateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateArray.swift; sourceTree = "<group>"; };
+		8E6F2ED42C4956D100C06930 /* PizzaCafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaCafe.swift; sourceTree = "<group>"; };
 		8ECA07832C4126980059890C /* ProfitBankDeposit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitBankDeposit.swift; sourceTree = "<group>"; };
 		8ECA07852C41535F0059890C /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		8EEDBF032C47F97A0075360D /* HumanTea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanTea.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				8E211A1C2C3FFE650015571C /* main.swift */,
+				8E6F2ED32C4950EA00C06930 /* Class_Structure */,
 				8EEDBF022C47F9590075360D /* Collections */,
 				8ECA077E2C411CB00059890C /* Functions */,
 				8E211A1B2C3FFE650015571C /* StartingSwift */,
@@ -84,6 +87,14 @@
 				8E211A292C4006B20015571C /* Task4.swift */,
 			);
 			path = StartingSwift;
+			sourceTree = "<group>";
+		};
+		8E6F2ED32C4950EA00C06930 /* Class_Structure */ = {
+			isa = PBXGroup;
+			children = (
+				8E6F2ED42C4956D100C06930 /* PizzaCafe.swift */,
+			);
+			path = Class_Structure;
 			sourceTree = "<group>";
 		};
 		8ECA077E2C411CB00059890C /* Functions */ = {
@@ -168,6 +179,7 @@
 				8EEDBF062C4804A40075360D /* ArrayManipulation.swift in Sources */,
 				8ECA07842C4126980059890C /* ProfitBankDeposit.swift in Sources */,
 				8E211A282C40043A0015571C /* Task3.swift in Sources */,
+				8E6F2ED52C4956D100C06930 /* PizzaCafe.swift in Sources */,
 				8E211A262C4001510015571C /* Task2.swift in Sources */,
 				8EEDBF042C47F97A0075360D /* HumanTea.swift in Sources */,
 				8E211A2A2C4006B20015571C /* Task4.swift in Sources */,

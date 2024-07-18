@@ -30,10 +30,13 @@ import Foundation
 //----------------Seminar2 (Functions folder)----------------
 //-----------------------------------------------------------
 //----------------Seminar3 (Collections folder)--------------
-print("Result of buying tea: ")
-printTeaHumans()
-getSum()
-arrayManipulation()
-var array = createArray(length: 8)
-print("Result array -> \(array)")
+//print("Result of buying tea: ")
+//printTeaHumans()
+//getSum()
+//arrayManipulation()
+//var array = createArray(length: 8)
+//print("Result array -> \(array)")
 //----------------Seminar3 (Collections folder)--------------
+//--------------Seminar4 (Class/structure folder)------------
+
+//--------------Seminar4 (Class/structure folder)------------
