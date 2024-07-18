@@ -33,4 +33,6 @@ import Foundation
 print("Result of buying tea: ")
 printTeaHumans()
 arrayManipulation()
+var array = createArray(length: 8)
+print("Result array -> \(array)")
 //----------------Seminar3 (Collections folder)--------------
