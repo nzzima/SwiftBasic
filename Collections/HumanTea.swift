@@ -14,17 +14,26 @@ enum Tea {
 }
 
 let tea: [Tea: Double] = [.black: 50, .fruit: 90, .green: 40]
-var humans = [Tea.black, Tea.fruit, Tea.green, Tea.fruit, Tea.green, Tea.black, Tea.green]
+var humans: [Tea] = [.black, .fruit, .green, .fruit, .green, .black, .green]
 
+//Version 1.0
 func printTeaHumans() {
-    for buyer in 0...humans.count - 1 {
+    for buyerIndex in 0...humans.count - 1 {
         for (teaType, price) in tea {
-            if (humans[buyer] == teaType) {
-                print("Human number -> \(buyer)\nTea -> \(teaType)\nPrice -> \(price)\n\n")
+            if (humans[buyerIndex] == teaType) {
+                print("Human number -> \(buyerIndex)\nTea -> \(teaType)\nPrice -> \(price)\n\n")
             }
             else {
                 continue
             }
         }
+    }
+}
+
+//Version 2.0
+func getSum() {
+    for (index, one) in humans.enumerated() {
+        let cost = tea[one]
+        print("Human number -> \(index), tea -> \(one), price -> \(cost ?? 0)")
     }
 }

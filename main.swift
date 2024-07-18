@@ -32,6 +32,7 @@ import Foundation
 //----------------Seminar3 (Collections folder)--------------
 print("Result of buying tea: ")
 printTeaHumans()
+getSum()
 arrayManipulation()
 var array = createArray(length: 8)
 print("Result array -> \(array)")
