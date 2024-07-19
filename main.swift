@@ -38,5 +38,20 @@ import Foundation
 //print("Result array -> \(array)")
 //----------------Seminar3 (Collections folder)--------------
 //--------------Seminar4 (Class/structure folder)------------
+var array: [pizza] = []
+var cafe = Cafe(pizzas: array)
+
+//let margarita = pizza(cost: 100, pizzaType: .margarita, doughtType: .thick, ingredient: .jalapeño)
+//let pepperoni = pizza(cost:200, pizzaType: .pepperoni, doughtType: .thin, ingredient: .pepperoni)
+//let meal = pizza(cost:150, pizzaType: .meal, doughtType: .thick, ingredient: .tomatoes)
+//let spicy = pizza(cost: 125, pizzaType: .spicy, doughtType: .thick, ingredient: .jalapeño)
+
+cafe.addPizza(newPizza: pizza(cost: 100, pizzaType: .margarita, doughtType: .thick, ingredient: .jalapeño))
+cafe.addPizza(newPizza: pizza(cost:200, pizzaType: .pepperoni, doughtType: .thin, ingredient: .pepperoni))
+cafe.addPizza(newPizza: pizza(cost:150, pizzaType: .meal, doughtType: .thick, ingredient: .tomatoes))
+cafe.addPizza(newPizza: pizza(cost: 125, pizzaType: .spicy, doughtType: .thick, ingredient: .jalapeño))
+
+let allPizzas = cafe.getAll()
+print(allPizzas)
 
 //--------------Seminar4 (Class/structure folder)------------
