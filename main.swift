@@ -70,4 +70,8 @@ cafeterium.addFrenchFries(frenFries: FrenchFries(cost: 25, size: .small, name: "
 
 let dataMenu = cafeterium.getMenu()
 print(dataMenu)
+
+print("\nResult of substraction Int:", subs(a: 10,b: 5))
+print("\nResult of substraction Double:", subs(a: 10.5,b: 5.2))
+
 //---------Seminar5 (Class/protocols/extensions folder)-------

@@ -7,8 +7,13 @@
 
 import Foundation
 
-//protocol
+protocol Substractionable {
+    static func -(one: Self, two: Self) -> Self
+}
 
-func substraction(a: Int, b: Int) -> Int {
+func subs<T: Substractionable>(a: T, b: T) -> T {
     return a - b
 }
+
+extension Int: Substractionable {}
+extension Double: Substractionable {}
