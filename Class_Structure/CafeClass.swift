@@ -52,9 +52,11 @@ class Cafe {
         return pizzas
     }
     
+    
+    /// Print all added pizzas
     func printAll() {
         for pizza in pizzas {
-            print("Price: \(pizza.cost), PizzaType")
+            print("Price: \(pizza.cost), PizzaType: \(pizza.pizzaType), DoughType: \(pizza.doughtType), Dop ingredient: \(pizza.ingredient)")
         }
     }
 }

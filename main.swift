@@ -46,7 +46,8 @@ cafe.addPizza(newPizza: pizza(cost:200, pizzaType: .pepperoni, doughtType: .thin
 cafe.addPizza(newPizza: pizza(cost:150, pizzaType: .meal, doughtType: .thick, ingredient: .tomatoes))
 cafe.addPizza(newPizza: pizza(cost: 125, pizzaType: .spicy, doughtType: .thick, ingredient: .jalapeño))
 
+cafe.printAll()
 let allPizzas = cafe.getAll()
-print(allPizzas)
+
 
 //--------------Seminar4 (Class/structure folder)------------
