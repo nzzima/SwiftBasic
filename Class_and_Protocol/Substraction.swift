@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+//protocol
+
+func substraction(a: Int, b: Int) -> Int {
+    return a - b
+}
